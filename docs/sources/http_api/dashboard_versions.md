@@ -25,7 +25,7 @@ Gets all existing dashboard versions for the dashboard with the given `dashboard
 **Example request for getting all dashboard versions**:
 
 ```http
-GET /api/dashboards/id/1/versions?limit=2?start=0 HTTP/1.1
+GET /api/dashboards/id/1/versions?limit=2&start=0 HTTP/1.1
 Accept: application/json
 Content-Type: application/json
 Authorization: Bearer eyJrIjoiT0tTcG1pUlY2RnVKZTFVaDFsNFZXdE9ZWmNrMkZYbk
